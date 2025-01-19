@@ -159,6 +159,11 @@ Widget _buildAddBirthdayButton(BuildContext context) {
           ),
         );
       },
+        style: ButtonStyle(
+          backgroundColor: MaterialStateProperty.all(const Color(0xFF492B3F)), // Background color
+          foregroundColor: MaterialStateProperty.all(Colors.white), // Text color
+          shadowColor: MaterialStateProperty.all(Colors.grey), // Shadow color
+        ),
       child: const Text("Add a Birthday"),
     ),
   );

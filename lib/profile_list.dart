@@ -45,6 +45,7 @@ class ProfileList extends StatelessWidget {
         itemBuilder: (context, index) {
           final profile = profiles[index];
           return Card(
+            color: const Color(0xFFAD687B ),
             child: ListTile(
               leading: CircleAvatar(
                 backgroundImage: NetworkImage(profile.profileURL),
